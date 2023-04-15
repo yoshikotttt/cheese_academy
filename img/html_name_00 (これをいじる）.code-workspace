@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../kadai_memo"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}
