@@ -77,6 +77,24 @@ body {
 
 }
 
+.fadeIn {
+  animation-name: fadeInAnime;
+  animation-duration:3s;
+  animation-fill-mode:forwards;
+  opacity: 0;
+  }
+  
+  @keyframes fadeInAnime{
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+
+
 .content {
     text-align: center;
 }
@@ -117,6 +135,17 @@ body {
 
 .images img {
   width: 300px;
+}
+
+.try {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
+
+.try button {
+  padding: 20px;
 }
 
 .course {
@@ -377,6 +406,7 @@ h3 {
   padding: 20px;
   border-top: 1px  solid #bfbfbf;
   
+  
 }
 
 .contact-item {
@@ -446,3 +476,27 @@ input[type=checkbox] {
 .contact-submit:hover {
   background-color: #d8cd9e;
 }
+
+.pagetop {
+  cursor: pointer;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  transition: .3s;
+  color: #fff;
+  background: #ffd61a;
+  font-size: 15px;
+  
+/*   デフォルトは非表示 */
+  opacity: 0;
+}
+.pagetop:hover {
+    box-shadow: 0 0 10px #66fb75;
+}
+
