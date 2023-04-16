@@ -195,45 +195,69 @@
           <p>間違っても問い合わせしないようお願いいたします。</p>
        </div>
        <div class="contact-form">
-        <form>
-          
-          <dl>
-            <dt>名前</dt>
-            <dd><input type="text"></dd>
-          </dl>
-          <dl>
-            <dt>カナ</dt>
-            <dd><input type="text"></dd>
-          </dl>
-          <dl>
-            <dt>年齢</dt>
-            <dd><input type="number"></dd>
-          </dl>
-          <dl>
-            <dt>メールアドレス</dt>
-            <dd><input type="email"></dd>
-          </dl>
-          <dl>
-            <dt>詳細</dt>
-            <dd><textarea name="other" rows="５"></textarea></dd>
-          </dl>
-          <dl>
-          <select id="category" name="category">
-            <option value="0">google選択</option>
-            <option value="1">SNS</option>
-            <option value="2">紹介</option>
-            <option value="3">たまたま通りかかった</option>
-            <option value="4">その他</option>
-          </select>
-          <label>お問い合わせ内容</label>
-          <input type="checkbox" id="terms" name="terms">
-          <label for="terms">利用規約に同意する</label>
-          <textarea id="message" name="message" rows="5"></textarea>
-          <button type="submit">送信</button>
-        </form>
-        
+       <form action="">
+        <table class="contact-table">
+          <tr>
+            <th class="contact-item">名前</th>
+            <td class="contact-body">
+              <input type="text" name="名前" class="form-text">
+            </td>
+          </tr>
+          <tr>
+            <th class="contact-item">カナ</th>
+            <td class="contact-body">
+              <input type="text" name="カナ" class="form-text">
+            </td>
+          <tr>
+            <th class="contact-item">メールアドレス</th>
+            <td class="contact-body">
+              <input type="email" name="メールアドレス" class="form-text">
+            </td>
+          </tr>
+          <tr>
+            <th class="contact-item">チーズアカデミーを知ったきっかけ</th>
+            <td class="contact-body">
+            <select name="きっかけ" id="">
+              <option value="google">google</option>
+              <option value="sns">sns</option>
+              <option value="introduction">紹介</option>
+              <option value="bychance">たまたま通りかかった</option>
+              <option value="other">その他</option>
 
-       </div>
+            </select>
+            </td>
+          </tr>
+          <tr>
+            <th class="contact-item">志望動機</th>
+            <td class="contact-body">
+              <label class="motivation">
+                <input type="checkbox" name="志望動機" />
+                <span class="contact-skill-txt">企業をしたい</span>
+              </label> 
+              <label class="motivation">
+                <input type="checkbox" name="志望動機" />
+                <span class="contact-skill-txt">チーズ系企業に就職・転職したい</span>
+              </label> 
+              <label class="motivation">
+                <input type="checkbox" name="志望動機" />
+                <span class="contact-skill-txt">チーズと関わる仕事をしており、仕事に生かしたい</span>
+              </label> 
+              <label class="motivation">
+                <input type="checkbox" name="志望動機" />
+                <span class="contact-skill-txt">チーズの教養を身につけたい</span>
+              </label> 
+            </td>
+          </tr>
+          <tr>
+            <th class="contact-item">詳細</th>
+            <td class="contact-body">
+              <textarea name="詳細" id="form-textarea" cols="30" rows="10"></textarea>
+            </td>
+          </tr>
+        </table>
+        <input class="contact-submit" type="submit" value="送信"/>
+       </form>
+      </div>
       </div>        
     </div>
     <!-- /.content -->
