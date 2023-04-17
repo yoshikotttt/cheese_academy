@@ -7,10 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>チーズアカデミー</title>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
+
+
 </head>
-<!-- 最初の設定は終わっています　必要な方は触ってください -->
+<!-- 最初の設定は終わっています 必要な方は触ってください -->
 
 <body>
   <!-- この中に記述していく -->
@@ -56,13 +60,29 @@
           <br>
           <p>チーズ職人への就職・転職もサポートします。</p>
       </div>
-          <div class="images">
+          <!-- <div class="images">
+          
             <img src="img/about_01.jpg" alt="">
             <img src="img/about_02.jpg" alt="">
             <img src="img/about_03.jpg" alt="">
             <img src="img/about_04.jpg" alt="">
+          </div> -->
+          <div class="slider">    
+            <div>
+              <img src="img/about_01.jpg" alt="">
+            </div>
+            <div>
+              <img src="img/about_02.jpg" alt="">
+            </div>
+            <div>
+              <img src="img/about_03.jpg" alt="">
+            </div>
+            <div>
+              <img src="img/about_04.jpg" alt="">
+            </div>   
           </div>
-
+          
+          
 
       </div>
 
@@ -267,7 +287,6 @@
     </div>
     <!-- /.content -->
 
-　　　
     <div class="pagetop">Top</div>
     <div id="footer">
           <p>2016 Cheeese Academy Tokyo All RIghts Reserved.</p> 
@@ -276,8 +295,51 @@
   </div>
   <!-- ここから上にコードを書く -->
   <!-- この中に記述していく -->
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <script src="js/main.js"></script>
+  <script>
+    $(function(){
+  // $('.your-class').slick({
+  //   setting-name: setting-value
+  // });
+  // $(".slider").slick({
+  //   arrows: false,
+  //   dots: true,
+  //   autoplay: true,
+  // });
+
+  $('.slider').slick({
+  centerMode: true,
+  centerPadding: '60px',
+  slidesToShow: 3,
+  autoplay: true,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+				
+
+});
+	
+  </script>
 </body>
 
 </html>
