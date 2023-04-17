@@ -6,6 +6,7 @@
 ## ②工夫した点・こだわった点
 - 文字がゆっくり表示されるようにした
  <img width="758" alt="スクリーンショット 2023-04-17 15 22 03" src="https://user-images.githubusercontent.com/130659722/232401335-d693a2c8-c945-468d-91e2-7ed6df4de58f.png">
+ 
 - TOPに戻るボタンをつけた
  <img width="149" alt="スクリーンショット 2023-04-17 15 24 51" src="https://user-images.githubusercontent.com/130659722/232401744-1610d9ba-c0ff-49f3-a7e3-cb740f24b1fc.png">
 
