@@ -8,13 +8,23 @@
   font-family: "Raleway", sans-serif;
 } */
 
-body {
-  /* display: flex;
+/* body {
+  display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; */
-  /* overflow: hidden; */
-  /* background: #1e152a; */
+  height: 100vh; 
+  overflow: hidden;
+  background: #1e152a;
+}
+
+h1 {
+  color: black;
+  font-size: 10rem;
+  font-weight: 900;
+  letter-spacing: 15px; */
+  /* margin: 0;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 h1 {
@@ -25,17 +35,7 @@ h1 {
   /* margin: 0;
   text-transform: uppercase;
   text-align: center; */
-}
 
-h1 {
-  color: black;
-  font-size: 10rem;
-  font-weight: 900;
-  letter-spacing: 15px;
-  /* margin: 0;
-  text-transform: uppercase;
-  text-align: center; */
-}
 
 .container h1 {
   color: #99eedf;

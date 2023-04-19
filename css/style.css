@@ -589,10 +589,16 @@ margin: auto;
 }
 
 
-.container2 {
-  
-}
+
 
 .cheese {
   background-color: #ff8708;
+}
+
+.faq_group h3{
+  border:solid #fae7b0 2px ;
+  background-color: #fbf5dd;
+  border-radius: 5px;
+  padding: 3px;
+  width: 80%;
 }
