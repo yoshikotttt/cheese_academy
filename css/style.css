@@ -299,6 +299,10 @@ h3 {
 
 .button:hover {
   background-color: #ffd61a;
+  box-shadow: #ff8708;
+}
+.button-space button active {
+  transform: translateY(0.2em);
 }
 
 .access {
@@ -577,3 +581,17 @@ margin:0 5px;
 .slick-dots .slick-active button{
   background:#333;
 } */
+
+.slider2 {
+margin-top: 50px;
+margin: auto;
+}
+
+
+.container2 {
+  
+}
+
+.cheese {
+  background-color: #ff8708;
+}
