@@ -1,4 +1,4 @@
-
+/* 
 :root {
   --colors: 1500ms;
 }
@@ -6,15 +6,15 @@
 * {
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
-}
+} */
 
 body {
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  overflow: hidden;
-  background: #1e152a;
+  height: 100vh; */
+  /* overflow: hidden; */
+  /* background: #1e152a; */
 }
 
 h1 {
@@ -83,3 +83,15 @@ h1 {
   }
 
 }
+.main {
+  display: flex;
+  flex-flow: column;
+  height: 500px;
+  
+}
+
+.container {
+  padding: 50px;
+  text-align: center;
+}
+

@@ -290,6 +290,7 @@ h3 {
   color: #ffffff;
   background-color: #fce16a;
   border-radius: 15px;
+  
 }
 
 .button-space {
@@ -299,9 +300,9 @@ h3 {
 
 .button:hover {
   background-color: #ffd61a;
-  box-shadow: #ff8708;
+  
 }
-.button-space button active {
+.button active {
   transform: translateY(0.2em);
 }
 
